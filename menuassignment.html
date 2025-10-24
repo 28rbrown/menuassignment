@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meal Menus</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: space-around;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .menu {
+      width: 400px;
+      height: 550px;
+      padding: 20px;
+      margin: 15px;
+      border: 3px solid #333;
+      border-radius: 10px;
+      color: white;
+      overflow-y: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .breakfast {
+      background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .lunch {
+      background-image: url('https://images.unsplash.com/photo-1551218808-94e220e084d2');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .dinner {
+      background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 24px;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: rgba(0, 0, 0, 0.5);
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu breakfast">
+    <h2>Breakfast Menu</h2>
+    <ul>
+      <li>Scrambled Eggs</li>
+      <li>Whole Wheat Toast</li>
+      <li>Greek Yogurt with Berries</li>
+      <li>Orange Juice</li>
+      <li>Black Coffee</li>
+    </ul>
+  </div>
+
+  <div class="menu lunch">
+    <h2>Lunch Menu</h2>
+    <ul>
+      <li>Grilled Chicken Sandwich</li>
+      <li>Mixed Green Salad</li>
+      <li>Apple Slices</li>
+      <li>Iced Tea</li>
+      <li>Water</li>
+    </ul>
+  </div>
+
+  <div class="menu dinner">
+    <h2>Dinner Menu</h2>
+    <ul>
+      <li>Baked Salmon</li>
+      <li>Steamed Broccoli</li>
+      <li>Quinoa Pilaf</li>
+      <li>Herbal Tea</li>
+      <li>Fruit Sorbet</li>
+    </ul>
+  </div>
+</body>
+</html>
